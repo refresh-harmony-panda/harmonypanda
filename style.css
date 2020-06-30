@@ -1,0 +1,143 @@
+body, html {
+    font-family: "Libre Franklin", sans-serif;
+    height: 100%;
+    margin: 0;
+}
+
+.landingpage {
+    background: url("images/landingPhoto.jpg");
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    /* Full height */
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    /* Center and scale the image nicely */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* .landingSaying {
+    text-align: center;
+    color: aliceblue;
+    font-size: 3.2rem;
+    margin-bottom: .5rem;
+} */
+
+.container {
+    width: 100%;
+}
+
+header {
+    background: black;
+}
+
+header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav {
+    margin: 0 auto;
+}
+
+/* nav ul specifies that ul in navbar */
+
+/* 
+.companyName {
+    display: inline-block;
+    vertical-align: top;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    margin-top: 15px;
+    margin-left: 20px;
+} */
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    /* list-style will remove dot points of ul in navi bar */
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    display: inline-block;
+    padding: 1em 0.5em;
+    font-size: small;
+    position: relative;
+    text-align: center;
+    margin: 1em;
+}
+
+/* linked list/text in nav bar and text decoration:none will remove the underline of the list */
+
+nav a {
+    color: whitesmoke;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a::before {
+    content: "";
+    display: block;
+    height: 5px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    width: 0%;
+}
+
+a hover::before {
+    width: 100%;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h4 {
+    color: whitesmoke;
+}
+
+.section {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.elegant {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Ibarra Real Nova", serif;
+    font-size: 1.5rem;
+}
+
+.smallFont {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Ibarra Real Nova", serif;
+    font-size: 1rem;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
