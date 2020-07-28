@@ -1,2 +1,2 @@
 # harmonypanda
-Prototype of my small project
+Prototype of our small project
